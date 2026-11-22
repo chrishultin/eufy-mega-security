@@ -1,10 +1,10 @@
-name: Eufy Mega Security
-version: "0.1.276"
-slug: eufy_event_gateway
+name: Eufy Mega Security (T8001 test)
+version: "0.1.276-t8001.1"
+slug: eufy_event_gateway_t8001
 description: Event-first Eufy camera bridge for Home Assistant
-url: https://github.com/mscodemonkey/eufy-mega-security
+url: https://github.com/chrishultin/eufy-mega-security/tree/t8001-test
 startup: application
-boot: auto
+boot: manual
 init: false
 arch:
   - aarch64

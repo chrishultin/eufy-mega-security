@@ -1,5 +1,7 @@
 # Eufy Mega Security for Home Assistant
 
+> **Unofficial test branch.** Adds untested-on-hardware live video for T8111 cameras behind an original HomeBase. See [T8001_TEST.md](T8001_TEST.md). For the supported app use [the upstream project](https://github.com/mscodemonkey/eufy-mega-security).
+
 [Explore the device catalogue](https://mscodemonkey.github.io/eufy-mega-security/) to check features for your setup or get help with a device.
 
 The project is maintained as an open-source gateway and Home Assistant integration. Start with the [developers start here guide](docs/DEVELOPERS_START_HERE.md) if you are new to the codebase, then use the [Mega platform reference](docs/MEGA_PLATFORM.md) for protocol and data-flow detail. The [contributor guide](CONTRIBUTING.md) covers local setup, testing, protocol boundaries, and release rules. The [file map](docs/FILE_MAP.md) explains where each part lives, and [SECURITY.md](SECURITY.md) covers private reports and secret handling.
