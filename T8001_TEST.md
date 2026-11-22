@@ -26,6 +26,10 @@ The fix alone is on the `t8001-legacy-video` branch. This branch only adds packa
 5. The existing integration should reconnect by itself through discovery. If it
    does not, restart Home Assistant.
 
+If the test app shows **Error** and its log has `uncaught_exception` with a `listen`
+failure right after `gateway_start`, the original app is still running. Stop it and
+start the test app again.
+
 ## Test
 
 1. Close Eufy live views in Homebridge, HomeKit and the Eufy app. For the cleanest
@@ -71,6 +75,12 @@ Remove the test repository from the app store if you are done.
 - On a T8002, this path replaces the newer ECC method for T8111 cameras.
 - If cameras on one channel work and others stay blank, send the log line:
   `foreign_video_frames` will show whether video is arriving on another channel.
+
+## What has been tested
+
+Installing from this branch, switching over, rolling back and uninstalling were tested
+on Home Assistant Supervisor 2026.11.0 with Core 2026.11.2 (aarch64, devcontainer, no
+Eufy account). Streaming was tested against a simulated HomeBase only.
 
 ## What this does not add
 
